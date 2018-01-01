@@ -1,2 +1,4 @@
 /nbproject/private/
 /vendor/
+/.git/
+/composer.lock
