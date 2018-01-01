@@ -1,0 +1,16 @@
+{
+    "name": "riwin/logger",
+    "description": "Description of project Logger.",
+    "authors": [
+        {
+            "name": "Richard Nahm",
+            "email": "richard.nahm@t-online.de"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "riwin\\Logger": "src/"
+        }
+    }
+}
