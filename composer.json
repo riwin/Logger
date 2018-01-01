@@ -7,6 +7,7 @@
             "email": "richard.nahm@t-online.de"
         }
     ],
+    "license": "MIT",
     "require": {},
     "autoload": {
         "psr-4": {
