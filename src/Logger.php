@@ -80,7 +80,7 @@ class Logger {
                 $txtLevel = "LOG";
                 break;
         }
-        if (static::getLogLevel() >= $level) {
+        if ($level >= static::getLogLevel()) {
 
             $log = "[" . $txtLevel . "]: " . $message;
             static::$log[count(static::$log)] = $log;
